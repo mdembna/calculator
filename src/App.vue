@@ -17,11 +17,17 @@ export default {
 
 <style>
 #app {
+  min-height: 100vh;
+  background-image: url(./assets/plant3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 100px;
+  padding: 100px 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0px;
 }
 </style>
